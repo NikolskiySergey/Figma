@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {% load static %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base_style.css' %}">
+
+    {% block title %}<title>Fig Vam</title>{% endblock %}
+
+</head>
+<body>
+
+{% block logo_reg %}
+<div class="capit">
+
+    <div class="logo">
+        <img src="{% static 'images/cat-logo.jpg' %}">
+    </div>
+
+    <div class="log-sign">
+        <input id="reg" type="submit" value="LOG IN/SIGN UP">
+    </div>
+
+</div>
+{% endblock %}
+
+{% block content %}
+
+{% endblock %}
+
+</body>
+</html>

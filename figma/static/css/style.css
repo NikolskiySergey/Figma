@@ -1,0 +1,25 @@
+
+.bigbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    align-items: flex-start;
+}
+
+.menu{
+    display: block;
+    width: 20%;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    align-items: flex-start;
+}
+
+.punkt{
+    display: block;
+}
