@@ -1,19 +1,19 @@
 .capit{
     width: 100%;
-    /*display: flex;*/
+    display: flex;
     /*flex-wrap: wrap;*/
-	/*justify-content: space-between;*/
+	justify-content: space-between;
     /*align-items: flex-start;*/
 }
 
 .logo{
-    width: 20%;
-    /*display: block;*/
-    float: left;
+    width: 10%;
+    /*display: inline-block;*/
+    /*float: left;*/
 }
 
 .log-sign{
-    width: 20%;
-    /*display: block;*/
-    float: right;
+    width: 10%;
+    /*display: inline-block;*/
+    /*float: right;*/
 }
